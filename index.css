@@ -27,12 +27,13 @@
     display: flex;
     justify-content: center;
     height: 70vh;
+    flex-wrap: wrap;
 }
 
 .main-div{
     background-color: #eee;
     flex-basis: 60vh;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .main-div div{
