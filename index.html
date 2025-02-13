@@ -16,20 +16,21 @@
         <div class="main-div">
             <div class="item1">
                 <label for="name">Notas:</label>
-                <input type="text" name="name" id="note" placeholder="notas">
-                <button type="submit">Adicionar</button>
+                <input type="text" name="name" id="notas" placeholder="nota">
+                <button type="submit" id="notasAdd">Adicionar</button>
             </div>
             <div class="item2">
-                <textarea placeholder="Histórico de notas aqui" cols="62" rows="20"></textarea>
+                <textarea placeholder="Histórico de notas aqui" cols="62" rows="20" id="textodenotas"></textarea>
             </div>
             <div class="item3">
-                <button type="submit">Calcular média</button>
-                <p>Sua nota é: <span id="nota"></span></p>
+                <button type="submit" id="mediabotao">Calcular média</button>
+                <p id="mediafinal">A média é:</p>
             </div>
         </div>
     </main>
     <footer>
 
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
